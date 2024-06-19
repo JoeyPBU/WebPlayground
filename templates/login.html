@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Brandy Login</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='login/style.css') }}" />
+        <script defer src="{{ url_for('static', filename='login/script.js') }}"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="login-container">
+                <form method="POST" action="" id="login-form">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" name="username" id="username" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" name="password" id="password" />
+                    </div>
+                    <div class="form-group button-group">
+                        <button type="button" class="btn-form" id="login-btn">Login</button>
+                        <button type="button" class="btn-form" id="sign-up-btn">Sign up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

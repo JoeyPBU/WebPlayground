@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>To Do List </title>
+      <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='toDoList/style.css') }}" />
+        <script defer src="{{ url_for('static', filename='toDoList/script.js') }}"></script>
+  </head>
+  <body>
+    <div class="create-container"> 
+      <div class="create-box">
+        <h3>Adding new task </h3>
+        <label for="taskName">Task:</label>
+        <div><input type="text" id="itemTaskAdd" ></div>
+        <label for="taskDescription">Description:</label>
+        <div><input type="type" id="itemDescriptionAdd" ></div>
+        <label for="taskNotes">Notes:</label>
+        <div><input type="text" id="itemNotesAdd"></div>
+        <button id="addTask">AddTask</button>
+      </div>
+      <div id="sort-button" unselectable="on" class="unselectable">Sort</div>
+    </div>
+    <div class="table-container">
+      <table id="task-table" >
+        <tr id="heading-row">
+          <th>Task</th>
+          <th>Description</th>
+          <th>Notes</th>
+          <th>Priority</th>
+          <th>Complete</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

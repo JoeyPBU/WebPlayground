@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Ainulindalë Node Requirements</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='ainuNodeReqs/style.css') }}" />
+        <script defer src="{{ url_for('static', filename='ainuNodeReqs/script.js') }}"></script>
+    </head>
+    <body>
+        <div class="node-list-container ">
+            <header class="node-list-header">
+
+            </header>
+            <div class="node-list-container" id="node-list-retracted">
+            </div>
+            <div class="node-list-container" id="node-list-extended">
+                <div class="node-list-container node-list-category-settlement-header">
+                    <button class="node-list-container button" id="node-list-container-town-button">Town</button>
+                    <button class="node-list-container button" id="node-list-container-city-button">City</button>
+                    <button class="node-list-container button" id="node-list-container-independant-button">Independant</button>
+                </div>
+                <div class="node-list-container node-list-category node-list-category-town" id="town-node">
+                    <p class="town-node-list" id="town-node-list-governance">Governance District</p>
+                    <p class="town-node-list" id="town-node-list-housing">Housing District</p>
+                    <div class="town-node-list">
+                        <div class="dropdown-container">
+                            <button class="dropbtn">Farming Districts</button>
+                            <div class="farming-districts-dropdown">
+                                <button value="crop">Crop</button>
+                                <button value="fishery">Fishery</button>
+                                <button value="husbandry">Husbandry</button>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="town-node-list chest" id="town-node-list-logging">Logging</p>                    
+                </div>
+            </div>
+        </div>
+        <div class="node-map-planner">
+
+        </div>
+    </body>
+</html>

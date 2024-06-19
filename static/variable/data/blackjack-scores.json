@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Mike",
+      "results": {
+        "wins": 11,
+        "losses": 11,
+        "draws": 2
+      },
+      "balance": 1000 
+    },
+    {
+      "name": "John",
+      "results": {
+        "wins": 5,
+        "losses": 9,
+        "draws": 3
+      },
+      "balance": 1000 
+    }
+  ]
+  

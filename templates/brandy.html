@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Brandy</title>
+        <meta charset="utf-8">
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/variable/images/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/variable/images/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/variable/images/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="/static/variable/images/favicon_io/site.webmanifest">
+        <link rel="stylesheet" href="{{ url_for('static', filename='brandy/style.css') }}" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+        <script defer src="{{ url_for('static', filename='brandy/script.js') }}"></script>
+    </head>
+    <body>
+        <section class="nav-solar-container">
+            <div class="nav-ball" id="display-body-nav-btn"></div>
+            <a class="nav-ball nav-ball-sub" href="{{ url_for('brandy') }}"><i class="fa-solid fa-house-user"></i></a>
+            <a class="nav-ball nav-ball-sub" id="display-cards-container-btn"><i class="fa-solid fa-star"></i></a>
+            <a class="nav-ball nav-ball-sub" href="{{ url_for('login') }}"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </section>
+        <div class="main">
+            <div class="cards-container-border" id="cards-container-border-left"></div>
+            <section class="cards-container">
+                <a href="{{url_for('ainuNodeReqs') }}" class="card" id="ainu-project">
+                    <img src="{{ url_for('static', filename='variable/images/brandy/card-images-ainu.jpg') }}" alt="Ainulindalë">
+                    <p>Ainulindalë</p>
+                </a>
+                <a href="{{url_for('solitaire') }}" class="card" id="solitaire-project">
+                    <img src="{{ url_for('static', filename='variable/images/brandy/card-images-solitaire.png') }}" alt="Solitaire">
+                    <p>Solitaire</p>
+                </a>
+                <a href="{{url_for('jokes') }}" class="card" id="jokes-project">
+                    <img src="{{ url_for('static', filename='variable/images/brandy/card-images-jokes.png') }}" alt="Jokes">
+                    <p>Jokes!</p>
+                </a>
+                <a href="{{ url_for('brackets') }}" class="card" id="brackets-project">
+                    <img src="{{ url_for('static', filename='variable/images/brandy/card-images-brackets.png') }}" alt="Brackets">
+                    <p>Snooker Brackets</p>
+                </a>
+                <a href="{{ url_for('donkey') }}" class="card" id="donkey-project">
+                    <img src="{{ url_for('static', filename='variable/images/brandy/card-images-donkey.png') }}" alt="Donkey!">
+                    <p>Donkey? Donkey!</p>
+                </a>
+                <a href="{{ url_for('calculator') }}" class="card" id="calculator-project">
+                    <img src="{{ url_for('static', filename='variable/images/brandy/card-images-calculator.png') }}" alt="Calculator">
+                    <p>Calculator</p>
+                </a>
+                <a href="{{ url_for('pong') }}" class="card" id="pong-project">
+                    <img src="{{ url_for('static', filename='variable/images/brandy/card-images-pong.png') }}" alt="Pong">
+                    <p>Pong</p>
+                </a>
+                <a href="{{ url_for('timeline') }}" class="card" id="timeline-project">
+                    <img src="{{ url_for('static', filename='variable/images/brandy/card-images-timeline.png' )}}" alt="Timeline">
+                    <p>Timeline</p>
+                </a>
+                <a href="{{ url_for('toDoList') }}" class="card" id="tasks-project">
+                    <img src="{{ url_for('static', filename='variable/images/brandy/card-images-tasks.png' )}}" alt="To Do List">
+                    <p>To Do List</p>
+                </a>
+                <a href="{{ url_for('blackjackTracker') }}" class="card" id="blackjack-tracker">
+                    <img src="{{ url_for('static', filename='variable/images/solitaire/cards/ace_of_spades.png' )}}" alt="To Do List">
+                    <p>Blackjack</p>
+                </a>
+          </section>
+          <div class="cards-container-border" id="cards-container-border-right"></div>
+        </div>
+    </body>
+</html>

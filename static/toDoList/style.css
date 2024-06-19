@@ -1,0 +1,91 @@
+body, html {
+  background-color: lightcoral;
+}
+
+table, tr, th, td    {
+  border: 1px solid black;
+}
+
+#heading-row {
+  background-color: rgb(107, 107, 107);
+}
+
+#complete-button {
+  background-color: red;
+}
+
+#complete-button:hover {
+  background-color: green;
+}
+
+#priority-button {
+  background-color: None;
+}
+
+#sort-button {
+  margin: 2vh;
+  background-color: aqua;
+  padding: 1vh;
+  border-radius: 10px;
+  max-height: 2vh;
+}
+
+
+tr{
+  background-color: rgb(196, 196, 196);
+  max-height: 2vh;
+}
+
+.edit-input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: inherit;
+}
+
+table{
+  width: 95%;
+  margin: 5%; 
+  background-color: rgb(37, 37, 37);
+  height: fit-content;
+} 
+
+body{
+  display: block;
+}
+
+.create-container {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  background-color: grey;
+  position: relative;
+  justify-content: center;
+  align-self: center;
+}
+
+.create-box{
+  display: block;
+  padding: 1vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  background-color: pink;
+  height: fit-content
+}
+
+.table-container {
+  display: flex;
+  height: flex 1 1 auto;
+  width: 100%;
+  background-color: lightcoral;
+  position: relative;
+}
+
+*.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

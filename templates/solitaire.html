@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Brandy Solitaire</title>
+        <link rel="icon" type="image/x-icon" href="/static/variable/images/favicon.ico">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='solitaire/style.css') }}" />
+        <script defer src="{{ url_for('static', filename='solitaire/script.js') }}"></script>
+    </head>
+    <body>
+        <header class="text-bold text-family-verdana header-style" id="header">
+            <nav>
+                <a href="{{ url_for('brandy') }}">Home</a>
+                <a href="{{ url_for('login') }}">Logout</a>
+            </nav>
+        </header>
+        <div class="main">
+            <div class="board-container">
+                <div class="board-top-container">
+                    <div class="unturned-pile card-pile">
+
+                    </div>
+                    <div class="turned-pile card-pile">
+                        <img class="card turned-pile-card" src="/static/variable/images/solitaire/cards/pile_empty.png">
+                    </div>
+                    <div class="stacked-pile card-pile" id="stacked-spades-pile">
+                        <img class="card stacked-pile-card" src="/static/variable/images/solitaire/cards/ace_of_clubs_holder.png">
+                    </div>
+                    <div class="stacked-pile card-pile" id="stacked-hearts-pile">
+                        <img class="card stacked-pile-card" src="/static/variable/images/solitaire/cards/ace_of_hearts_holder.png">
+                    </div>
+                    <div class="stacked-pile card-pile" id="stacked-clubs-pile">
+                        <img class="card stacked-pile-card" src="/static/variable/images/solitaire/cards/ace_of_spades_holder.png">
+                    </div>
+                    <div class="stacked-pile card-pile" id="stacked-diamonds-pile">
+                        <img class="card stacked-pile-card" src="/static/variable/images/solitaire/cards/ace_of_diamonds_holder.png">
+                    </div>
+                </div>
+                <div class="board-main-container">
+                    <ul class="game-column" id="game-column-one">
+                        
+                    </ul>
+                    <ul class="game-column" id="game-column-two">
+                        
+                    </ul>
+                    <ul class="game-column" id="game-column-three">
+                        
+                    </ul>
+                    <ul class="game-column" id="game-column-four">
+                        
+                    </ul>
+                    <ul class="game-column" id="game-column-five">
+                        
+                    </ul>
+                    <ul class="game-column" id="game-column-six">
+                        
+                    </ul>
+                    <ul class="game-column" id="game-column-seven">
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="new-game-menu-container">
+                <button class="new-game-menu-button" id="new-game-easy">Easy</button>
+                <button class="new-game-menu-button" id="new-game-difficult">Difficult</button>
+            </div>
+        </div>
+    </body>
+</html>

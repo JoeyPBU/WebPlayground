@@ -1,0 +1,12 @@
+{
+    "users": [
+        {
+            "username": "JBAdmin",
+            "password": "a"
+        },
+        {
+            "username": "JBNorm",
+            "password": "b"
+        }
+    ]
+}

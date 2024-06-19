@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brandy</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='jokes/style.css') }}" />
+        <script defer src="{{ url_for('static', filename='jokes/script.js') }}"></script>
+    </head>
+    <body>
+        <header>
+            <img alt="Comedy Gold Logo" src="{{ url_for('static', filename='variable/images/jokes/jokes-logo.png') }}" />
+            <h3>Comedy Gold</h3>
+            <a href="{{ url_for('index') }}">Home</a>
+        </header>
+        <div class="body-main">
+            <div class="joke-of-the-day-container">
+                <p id="joke-of-the-day" joke-id=""></p>
+            </div>
+            <div class="jokes-main">
+                <div class="category">
+                    <header class="category-header">
+                        <select class="category-select" name="Categories">
+                            <option value="" selected disabled hidden>Jokes!</option>
+                            <option value="General">General</option>
+                            <option value="Science">Science</option>
+                            <option value="LOTR">Lord of the Rings</option>
+                            <option value="Food">Food</option>
+                            <option value="Programming">Programming</option>
+                            <option value="Animals">Animals</option>
+                            <option value="British">British</option>
+                        </select>
+                    </header>
+                    <div class="category-content">
+                        <ul class="category-jokes">
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="category">
+                    <header class="category-header">
+                        <select class="category-select" name="Categories" selected="Jokes!">
+                            <option value="" selected disabled hidden>Jokes!</option>
+                            <option value="General">General</option>
+                            <option value="Science">Science</option>
+                            <option value="LOTR">Lord of the Rings</option>
+                            <option value="Food">Food</option>
+                            <option value="Programming">Programming</option>
+                            <option value="Animals">Animals</option>
+                            <option value="British">British</option>
+                        </select>
+                    </header>
+                    <div class="category-content">
+                        <ul class="category-jokes">
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="category">
+                    <header class="category-header">
+                        <select class="category-select" name="Categories" selected="Jokes!">
+                            <option value="" selected disabled hidden>Jokes!</option>
+                            <option value="General">General</option>
+                            <option value="Science">Science</option>
+                            <option value="LOTR">Lord of the Rings</option>
+                            <option value="Food">Food</option>
+                            <option value="Programming">Programming</option>
+                            <option value="Animals">Animals</option>
+                            <option value="British">British</option>
+                        </select>
+                    </header>
+                    <div class="category-content">
+                        <ul class="category-jokes">
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                            <li joke-id="">Filler</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="create-joke">
+                <img id="create-joke-button" alt="Create Joke" src="{{ url_for('static', filename='variable/images/jokes/jokes-microphone.png') }}"/>
+                <div id="create-joke-box">
+                    <form method="post">
+                        <label for="joke">Create a Joke!</label>
+                        <label for="first-line">First Line!</label>
+                        <textarea id="create-joke-first-line" name="first-line" rows="4" cols="50" placeholder="Why did the Chicken Cross the Road?"></textarea>
+                        <label for="punch-line">Punch Line!</label>
+                        <textarea id="create-joke-punch-line" name="punch-line" rows="4" cols="50" placeholder="To get to the other side!"></textarea>
+                        <label for="category">Category</label>
+                        <select id="create-joke-topic" name="category">
+                            <option value="General">General</option>
+                            <option value="Science">Science</option>
+                            <option value="LOTR">Lord of the Rings</option>
+                            <option value="Food">Food</option>
+                            <option value="Programming">Programming</option>
+                            <option value="Animals">Animals</option>
+                            <option value="British">British</option>
+                        </select>
+                        <input id="create-joke-submit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

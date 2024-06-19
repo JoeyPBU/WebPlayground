@@ -1,0 +1,115 @@
+/* Main container */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkgrey;
+}
+
+/* Board container */
+.board-container {
+    background-color: rgb(72, 41, 23);
+    padding: 10vh;
+    border-radius: 5px;
+}
+
+/* Board top container */
+.board-top-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: auto;
+    background-color: rgb(0, 108, 0);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.board-main-container {
+    background-color: rgb(0, 128, 0);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 50vh;
+}
+
+/* Game column */
+.game-column {
+    display: table-cell;
+    vertical-align: top;
+    list-style-type: none;
+    position: relative;
+    padding: 1vh;
+    height: 48vh;
+    clear: none;
+}
+
+.game-column-empty {
+    padding: 4vh;
+}
+
+/* Card */
+.card {
+    padding: 0;
+    height: auto;
+    width: auto;
+    max-width: 6vh;
+    max-height: 12vh;
+}
+
+/* Board card */
+.board-card {
+    padding: 0.5vh;
+    position: relative;
+    margin-top: 2vh;
+}
+
+/* Dragging card */
+.card.dragging {
+    opacity: 0.5;
+}
+
+/* Drag over card */
+.card.drag-over {
+    border: 2px dashed black;
+}
+
+
+/* Game column cards overlapping */
+.game-column li:not(:first-child) .card {
+    margin-top: -15vh;
+}
+
+/* Top card adjustment */
+.game-column li:first-child .card {
+    margin-top: 0;
+}
+
+/* Card piles */
+.card-pile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    position: relative;
+    margin: 0.5vh;
+    width: auto;
+    height: auto;
+    padding: 1vh;
+}
+
+/* Stack subsequent cards */
+.card-pile img:not(:first-child) {
+    margin-top: -8.71vh;
+}
+
+#stacked-spades-pile {
+    margin-left: auto;
+}
+
+/* New Game Container Styles */
+.new-game-menu-container {
+    background-color: blue;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 2vh;
+}

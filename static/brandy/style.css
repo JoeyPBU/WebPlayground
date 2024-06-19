@@ -1,0 +1,175 @@
+/* General Styling */
+body {
+  background-image: url(/static/variable/images/brandy/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Solar Nav */
+.nav-solar-container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  width: 40vh;
+  margin: 2vh;
+}
+
+#display-body-nav-btn{
+  display: flex;
+}
+
+.nav-ball {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 20px 5px white;
+}
+
+.nav-ball-sub {
+  position: absolute;
+  animation: nav-ball-slidein 200ms linear;
+  margin-left: 2vh;
+  top: 0;
+  left: 0;
+}
+
+@keyframes nav-ball-slidein {
+  from {
+    margin-left: 0%
+  }
+  to {
+    margin-left: 5%;
+  }
+}
+
+@keyframes nav-ball-slideout {
+  from {
+    margin-left: 5%
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+.nav-ball-sub i {
+  font-size: 1.5em;
+  text-shadow: -2px 2px darkgrey;
+  color: black;
+}
+
+.nav-ball.show {
+  display: flex;
+}
+.nav-ball-sub.show{
+  position: relative;
+}
+
+/* Main Content */
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-container-border {
+  display: none;
+  height: 64%;
+  width: 2vh;
+  background-color: rgb(25, 31, 43);
+  z-index: 10;
+}
+
+#cards-container-border-left{
+  border-radius: 15px 0 0 15px;
+}
+
+#cards-container-border-right{
+  border-radius: 0 15px 15px 0;
+}
+
+.cards-container-border.show{
+  display: flex;
+}
+
+/* Games Container */
+.cards-container {
+  display: none;
+  height: 64%;
+  width: 70%;
+  background-color: rgba(191, 191, 191, 0.17);
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  box-shadow: 0 0 50px 30px rgba(191, 191, 191, 0.18);
+}
+
+.cards-container.show {
+  display: flex;
+}
+
+.cards-container.show {
+  display: flex;
+}
+
+.card {
+  flex: 0 0 25vh;
+  border-radius: 10px;
+  box-shadow: -1vh 0 5px rgba(85, 85, 85, 0.75);
+  text-align: center;
+  padding: 2vh;
+  margin: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: VarelaRound;
+  transition: filter 0.3s, transform 0.3s, box-shadow 0.3s;
+  transform: scale(0.85);
+  background-color: #000000;
+}
+
+.card:not(:first-child){
+  margin-left: -9vh;
+}
+
+.card img {
+  opacity: inherit;
+  width: 14vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 10px 0 0;
+  aspect-ratio: 2/3;
+}
+
+.card p {
+  opacity: inherit;
+  display: inherit;
+  margin: 0;
+  padding: 8vh 0 0 0;
+  border-radius: 0 0 10px 10px;
+  font-size: 20px;
+  color: white;
+  background-color: #191919;
+  height: 8vh;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(0.9) translateY(-5%);
+  z-index: 1;
+  box-shadow: -1vh 10px 5px rgba(85, 85, 85, 0.486);
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}

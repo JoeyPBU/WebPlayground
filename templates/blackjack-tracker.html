@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blackjack Tracker</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='blackjackTracker/style.css') }}" />
+    <script defer src="{{ url_for('static', filename='blackjackTracker/script.js') }}"></script>
+</head>
+
+<body>
+    <div id="players-container">
+        <div id="new-player-form">
+            <label for="player-name">Player Name:</label>
+            <input type="text" id="player-name" placeholder="Enter name">
+            <button onclick="createPlayer()">Create Player</button>
+        </div>
+
+        <div id="game-area">
+            <h2>Table</h2>
+            <p>Minimum Bet: £<span id="min-bet">100</span></p>
+            <input type="number" id="min-bet-input" placeholder="Set Minimum Bet">
+            <button onclick="setMinBet()">Set Minimum Bet</button>
+            <div id="selected-players"></div>
+        </div>
+        
+    </div>
+
+    <div id="old-players-list">
+        <h2>Old Players</h2>
+        <ul id="players-list"></ul>
+    </div>
+</body>
+
+</html>

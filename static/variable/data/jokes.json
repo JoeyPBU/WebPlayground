@@ -1,0 +1,548 @@
+{
+    "jokes": {
+        "0001": {
+            "first_line": "Why don't scientists trust atoms?",
+            "punch_line": "Because they make up everything",
+            "joke_type": "dad_joke",
+            "joke_topic": "Science"
+        },
+        "0003": {
+            "first_line": "Why do programmers prefer dark mode?",
+            "punch_line": "Because light attracts bugs",
+            "joke_type": "nerdy",
+            "joke_topic": "Science"
+        },
+        "0005": {
+            "first_line": "Why don't oysters share their pearls?",
+            "punch_line": "Because they're shellfish",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0007": {
+            "first_line": "Why did the physics professor break up with the biology professor?",
+            "punch_line": "There was no chemistry",
+            "joke_type": "pun",
+            "joke_topic": "Science"
+        },
+        "0010": {
+            "first_line": "What do you get when you cross a sheep and a kangaroo?",
+            "punch_line": "A woolly jumper",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0011": {
+            "first_line": "Why did the chicken cross the road?",
+            "punch_line": "To get to the other side",
+            "joke_type": "anti-joke",
+            "joke_topic": "Science"
+        },
+        "0012": {
+            "first_line": "Why do mushrooms go to parties?",
+            "punch_line": "Because they're fungi to be with",
+            "joke_type": "pun",
+            "joke_topic": "Science"
+        },
+        "0013": {
+            "first_line": "Why don't seagulls fly by the bay?",
+            "punch_line": "Because then they'd be bagels",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0014": {
+            "first_line": "What do you get when you cross a snowman and a vampire?",
+            "punch_line": "Frostbite",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0015": {
+            "first_line": "Why did the banana go to the doctor?",
+            "punch_line": "Because it wasn't peeling well",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0016": {
+            "first_line": "Why did the tomato turn to the other tomato and say, 'You're not ripe yet'?",
+            "punch_line": "Because it wanted to a ketchup",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0017": {
+            "first_line": "Why did the cookie go to the doctor?",
+            "punch_line": "Because it felt crummy",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0018": {
+            "first_line": "Why did the banana go to the doctor?",
+            "punch_line": "Because it wasn't peeling well",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0018A": {
+            "first_line": "Why did the banana go to the doctor?",
+            "punch_line": "Because it wasn't peeling well",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0019": {
+            "first_line": "What do you call a fake noodle?",
+            "punch_line": "An impasta",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0020": {
+            "first_line": "Why did the chicken go to the seance?",
+            "punch_line": "To talk to Colonel Sanders",
+            "joke_type": "dark",
+            "joke_topic": "Food"
+        },
+        "0021": {
+            "first_line": "Why don't eggs tell jokes?",
+            "punch_line": "Because they'd crack each other up",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0022": {
+            "first_line": "Why did the grape stop in the middle of the run?",
+            "punch_line": "Because it ran out of juice",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0023": {
+            "first_line": "Why don't ghosts drink coffee?",
+            "punch_line": "Because it goes right through them",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0024": {
+            "first_line": "What do you call a pig that does karate?",
+            "punch_line": "A pork chop",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0025": {
+            "first_line": "Why did the man put his money in the freezer?",
+            "punch_line": "He wanted cold hard cash",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0026": {
+            "first_line": "Why did the cheese go to the gym?",
+            "punch_line": "To get shredded",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0027": {
+            "first_line": "Why did the lemon go to the doctor?",
+            "punch_line": "Because it wasn't peeling well",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0028": {
+            "first_line": "Why did the grape go out with the raisin?",
+            "punch_line": "Because it couldn't get a date",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0029": {
+            "first_line": "What do you call a sleeping bull?",
+            "punch_line": "A bulldozer",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0031": {
+            "first_line": "What do you get when you cross a snowman and a shark?",
+            "punch_line": "Frostbite",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0032": {
+            "first_line": "Why did the cow go to outer space?",
+            "punch_line": "To see the moooon",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0033": {
+            "first_line": "Why did the dog go to the vet?",
+            "punch_line": "Because he was feeling ruff",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0034": {
+            "first_line": "Why did the bear wear running shoes?",
+            "punch_line": "To be able to bearfoot run",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0035": {
+            "first_line": "What do you get when you cross a snake and a pie?",
+            "punch_line": "A pie-thon",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0037": {
+            "first_line": "What's a frog's favorite drink?",
+            "punch_line": "Croak-a-Cola",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0038": {
+            "first_line": "What bird is always out of breath?",
+            "punch_line": "A puffin",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0039": {
+            "first_line": "What does a nosey pepper do?",
+            "punch_line": "Get jalapeno business",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0040": {
+            "first_line": "How many depressed people does it take to change a lightbulb?",
+            "punch_line": "It doesn't matter, it's always dark",
+            "joke_type": "dark",
+            "joke_topic": "British"
+        },
+        "0042": {
+            "first_line": "What do you call a can opener that doesn't work?",
+            "punch_line": "A can't opener",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0043": {
+            "first_line": "Why did the octopus cross the road?",
+            "punch_line": "To get to the other tide",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0045": {
+            "first_line": "What do you call a bear with no teeth?",
+            "punch_line": "A gummy bear",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0046": {
+            "first_line": "What do you call a bear that has no ears?",
+            "punch_line": "B",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0047": {
+            "first_line": "Why do cows wear bells?",
+            "punch_line": "Because their horns don't work",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0048": {
+            "first_line": "Why did the elephant wear a green hat?",
+            "punch_line": "To sneak across the pool table without being noticed",
+            "joke_type": "absurd",
+            "joke_topic": "Animals"
+        },
+        "0049": {
+            "first_line": "What do you call a camel without a hump?",
+            "punch_line": "Humphrey",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0050": {
+            "first_line": "Why did the kangaroo stop drinking coffee?",
+            "punch_line": "Because it made him too jumpy",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0051": {
+            "first_line": "Why do programmers prefer dark mode?",
+            "punch_line": "Less watts, more commits",
+            "joke_type": "nerdy",
+            "joke_topic": "Programming"
+        },
+        "0052": {
+            "first_line": "What's the difference between a snowman and a snowwoman?",
+            "punch_line": "Snowballs",
+            "joke_type": "dark",
+            "joke_topic": "General"
+        },
+        "0053": {
+            "first_line": "What is a highlighters favourite twister position?",
+            "punch_line": "Neon Yelow",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0054": {
+            "first_line": "Why did the chicken cross the road?",
+            "punch_line": "To get to the other side of life",
+            "joke_type": "dark",
+            "joke_topic": "General"
+        },
+        "0055": {
+            "first_line": "Why did the scarecrow win an award?",
+            "punch_line": "Because he was outstanding in his field",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0056": {
+            "first_line": "Why did the boy drop his ice cream?",
+            "punch_line": "Because he was hit by a bus",
+            "joke_type": "dark",
+            "joke_topic": "General"
+        },
+        "0057": {
+            "first_line": "Why did the bicycle fall over?",
+            "punch_line": "Because it was two tired",
+            "joke_type": "dark",
+            "joke_topic": "General"
+        },
+        "0058": {
+            "first_line": "Why was the math book sad?",
+            "punch_line": "Because it had too many problems",
+            "joke_type": "dark",
+            "joke_topic": "Science"
+        },
+        "0059": {
+            "first_line": "What's red and bad for your teeth?",
+            "punch_line": "A brick",
+            "joke_type": "dark",
+            "joke_topic": "General"
+        },
+        "0060": {
+            "first_line": "Why did the tomato turn red?",
+            "punch_line": "Because it saw the salad dressing",
+            "joke_type": "pun",
+            "joke_topic": "Food"
+        },
+        "0060A": {
+            "first_line": "Why did the tomato turn red?",
+            "punch_line": "Because it saw the salad dressing",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0063": {
+            "first_line": "What do you call a hobbit get party?",
+            "punch_line": "A little get together.",
+            "joke_type": "pun",
+            "joke_topic": "LOTR"
+        },
+        "0064": {
+            "first_line": "Why don't you ask a hobbit for money?",
+            "punch_line": "Because they're always a little short",
+            "joke_type": "pun",
+            "joke_topic": "LOTR"
+        },
+        "0065": {
+            "first_line": "Why are most hobbits good guys?",
+            "punch_line": "BEcause they don't look down on people",
+            "joke_type": "pun",
+            "joke_topic": "LOTR"
+        },
+        "0067": {
+            "first_line": "Why did the programmer quit his job?",
+            "punch_line": "He didn't get arrays",
+            "joke_type": "pun",
+            "joke_topic": "Programming"
+        },
+        "0068": {
+            "first_line": "Why do programmers always mix up Halloween and Christmas?",
+            "punch_line": "Because Oct 31 equals Dec 25",
+            "joke_type": "nerdy",
+            "joke_topic": "Programming"
+        },
+        "0069": {
+            "first_line": "Why did the programmer go broke?",
+            "punch_line": "He used up all his cache",
+            "joke_type": "pun",
+            "joke_topic": "Programming"
+        },
+        "0070": {
+            "first_line": "What do you call a programmer from Finland?",
+            "punch_line": "A Nerdic",
+            "joke_type": "pun",
+            "joke_topic": "Programming"
+        },
+        "0072": {
+            "first_line": "Why don't programmers like to eat during coding?",
+            "punch_line": "They don't want to byte off more than they can chew",
+            "joke_type": "pun",
+            "joke_topic": "Programming"
+        },
+        "0074": {
+            "first_line": "Why did the programmer break up with his girlfriend?",
+            "punch_line": "He didn't have enough cache",
+            "joke_type": "pun",
+            "joke_topic": "Programming"
+        },
+        "0075": {
+            "first_line": "Why do programmers hate the outdoors?",
+            "punch_line": "It has too many bugs",
+            "joke_type": "nerdy",
+            "joke_topic": "Programming"
+        },
+        "0076": {
+            "first_line": "Why did the programmer wear glasses?",
+            "punch_line": "Because he couldn't C#",
+            "joke_type": "pun",
+            "joke_topic": "Programming"
+        },
+        "0079": {
+            "first_line": "Why did the programmer get stuck in the shower?",
+            "punch_line": "The instructions on the shampoo bottle said lather, rinse, repeat",
+            "joke_type": "pun",
+            "joke_topic": "Programming"
+        },
+        "0081": {
+            "first_line": "Why did the British cross the Atlantic?",
+            "punch_line": "To buy a gun.",
+            "joke_type": "dark",
+            "joke_topic": "British"
+        },
+        "0082": {
+            "first_line": "Why did the British person bring a ladder to the pub?",
+            "punch_line": "Because he heard the drinks were on the house",
+            "joke_type": "pun",
+            "joke_topic": "British"
+        },
+        "0084": {
+            "first_line": "What do you call a British man in the knockout stages of the World Cup?",
+            "punch_line": "A referee",
+            "joke_type": "pun",
+            "joke_topic": "British"
+        },
+        "0091": {
+            "first_line": "What do you call someone in Britain that can cook?",
+            "punch_line": "A tourist",
+            "joke_type": "pun",
+            "joke_topic": "British"
+        },
+        "0092": {
+            "first_line": "Why do British people drive on the left?",
+            "punch_line": "Because they have no rights left",
+            "joke_type": "dark",
+            "joke_topic": "British"
+        },
+        "0094": {
+            "first_line": "Why did the British person bring a pencil to bed?",
+            "punch_line": "To draw the curtains",
+            "joke_type": "pun",
+            "joke_topic": "British"
+        },
+        "0095": {
+            "first_line": "What do you call a hobbit who doesn't like coffee?",
+            "punch_line": "A decaf of Bag End.",
+            "joke_type": "pun",
+            "joke_topic": "LOTR"
+        },
+        "0096": {
+            "first_line": "Why did Gimli bring a ladder to the Mines of Moria?",
+            "punch_line": "He wanted to climb the corporate ladder.",
+            "joke_type": "pun",
+            "joke_topic": "LOTR"
+        },
+        "0097": {
+            "first_line": "Why did Aragorn go to the dentist?",
+            "punch_line": "He needed a crown.",
+            "joke_type": "pun",
+            "joke_topic": "LOTR"
+        },
+        "0101": {
+            "first_line": "Why did Sauron invest in Apple?",
+            "punch_line": "Because he wanted to rule the iWorld.",
+            "joke_type": "pun",
+            "joke_topic": "LOTR"
+        },
+        "0107": {
+            "first_line": "Why did Aragorn break up with Arwen?",
+            "punch_line": "She was elf-absorbed.",
+            "joke_type": "pun",
+            "joke_topic": "LOTR"
+        },
+        "0109": {
+            "first_line": "Why did Sam refuse to share his lembas bread?",
+            "punch_line": "Because it was his precious.",
+            "joke_type": "nerdy",
+            "joke_topic": "LOTR"
+        },
+        "0111": {
+            "first_line": "Why did the hipster burn his tongue?",
+            "punch_line": "Because he drank his coffee before it was cool.",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0112": {
+            "first_line": "Why do bees hum?",
+            "punch_line": "Because they don't know the words.",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0114": {
+            "first_line": "Why did the golfer wear two pairs of pants?",
+            "punch_line": "In case he got a hole in one.",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0116": {
+            "first_line": "Why did the tomato turn blue?",
+            "punch_line": "Because it was holding its breath.",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0117": {
+            "first_line": "Why did the chicken cross the playground?",
+            "punch_line": "To get to the other slide.",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0118": {
+            "first_line": "Why do elephants never use computers?",
+            "punch_line": "They're afraid of mice.",
+            "joke_type": "pun",
+            "joke_topic": "Animals"
+        },
+        "0121": {
+            "first_line": "Why did the orange stop rolling down the hill?",
+            "punch_line": "Because it ran out of juice.",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0122": {
+            "first_line": "Why don't ghosts use elevators?",
+            "punch_line": "They lift their spirits.",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0123": {
+            "first_line": "Why did the chicken join the band?",
+            "punch_line": "Because it had drumsticks.",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "0124": {
+            "first_line": "Why don't ants get sick?",
+            "punch_line": "They have tiny ant-bodies.",
+            "joke_type": "pun",
+            "joke_topic": "General"
+        },
+        "2333": {
+            "first_line": "boo",
+            "punch_line": "bee",
+            "joke_type": "custom",
+            "joke_topic": "LOTR"
+        },
+        "6831": {
+            "first_line": "How do you take chewing gum from your hair?",
+            "punch_line": "Cancer",
+            "joke_type": "custom",
+            "joke_topic": "General"
+        },
+        "3551": {
+            "first_line": "What happens when you cross Lulu and Taylor Swift",
+            "punch_line": "You shake it off",
+            "joke_type": "custom",
+            "joke_topic": "General"
+        }
+    },
+    "joke_of_the_day": {
+        "joke_id": "0107",
+        "joke": "Why did Aragorn break up with Arwen?"
+    }
+}

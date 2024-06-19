@@ -1,0 +1,266 @@
+/** Body Styles **/
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/**Header Styles **/
+
+header {
+    background-color: #6912b1;
+    margin-bottom: 1vh;
+    overflow: hidden;
+}
+
+header h3, img{
+    justify-content: center;
+    float: left;
+}
+
+header img  {
+    margin: 1vh;
+    width: 8vh;
+    height: 8vh;
+}
+
+header a {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    float: right;
+    margin: 1vh;
+    margin-right: 5vh;
+}
+
+header a:hover {
+    background-color: #45a049;
+}
+
+/** Main Styles **/
+
+.body-main {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+/** Joke of the day Styles **/
+.joke-of-the-day-container {
+    margin-top: 1vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: #f0d43e;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.6s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#joke-of-the-day {
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 16px;
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+}
+
+.joke-of-the-day-container.spin {
+    transform: rotateX(360deg);
+}
+
+/** Jokes Main Styles **/
+
+.jokes-main {
+    background-color: #a1da87;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1vh;
+    overflow: hidden;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+  
+
+/** Create Joke Styles **/
+
+#create-joke-button {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vh;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 4vh;
+    z-index: 9999;
+}
+
+
+#create-joke-box {
+    display: none;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+#create-joke-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#create-joke-box label,
+#create-joke-box select,
+#create-joke-box textarea,
+#create-joke-box input[type="submit"] {
+    margin-bottom: 10px;
+}
+
+/** Category Header Styles **/
+.category-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #f4ec5d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/** Category Header Select Styles **/
+
+.category-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #f4ec5d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.category-select {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    color: #333;
+    appearance: none;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.category-select:focus {
+    outline: none;
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+}
+
+.category-select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+.category-select option:checked {
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+
+
+/** Category Styles **/
+.category {
+    margin: 1vh;
+    width: 32%;
+    background-color: #ffc94b;
+    overflow: hidden;
+    border-radius: 10px;
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+}
+  
+
+.category-jokes {
+    margin-top: 0vh;
+    list-style-type: none;
+    padding-left: 0;
+    border-radius: 10px;
+    flex-grow: 1;
+    overflow: auto;
+    max-height: calc(100vh - 35vh);
+}
+
+
+
+/* Flip li */
+.category-jokes li {
+    margin: 1vh;
+    padding: 3vh;
+    align-items: center;
+    height: 100%;
+    background-color: #f9faf4;
+    display: block;
+    position: relative;
+    transition: transform 0.6s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.category-jokes li.spin {
+    transform: rotateX(360deg);
+}
+
+/** Create Joke Styles **/
+#create-joke-box {
+    background-color: #6912b1;
+}
+
+/** Scrollbar **/
+
+.body::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+.body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 20px;
+}
+
+.body::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}

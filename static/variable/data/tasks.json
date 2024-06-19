@@ -1,0 +1,10 @@
+{
+    "Tasks": {
+        "1413": {
+            "task": "Get it to work",
+            "description": "Fix the parameters of tableRowAddEventListeners",
+            "note": "It is missing taskID & Row",
+            "priority": "High"
+        }
+    }
+}
